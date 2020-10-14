@@ -72,7 +72,7 @@
 
 /* Catalogue changes */
 .carousel-inner {
-  width: 90%;
+  width: 82%;
   margin: auto;
   height: 450px;
 }
@@ -112,13 +112,25 @@
 }
 
 .carousel-control-next, .carousel-control-prev{
-  width: 5%;
+  width: 9%;
   background-color: #009aa4 !important;
 }
 @media (max-width: 768px){
   .carousel-control-next, .carousel-control-prev{
-    width: 10%;
+    width: 9%;
   }
+  .carousel-inner {
+    height: 350px;
+    position: relative;
+  }
+  .hero{
+    height: 350px !important;
+  }
+
+.d-block.w-100 {
+  /*height: 450px;*/
+  height: 350px;
+}
 }
 
 .zoo-item .zoo-img {

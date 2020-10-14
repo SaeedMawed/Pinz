@@ -72,7 +72,7 @@
 
 /* Catalogue changes */
 .carousel-inner {
-  width: 82%;
+  width: 60%;
   margin: auto;
   height: 450px;
 }
@@ -112,29 +112,35 @@
 }
 
 .carousel-control-next, .carousel-control-prev{
-  width: 9%;
+  width: 20%;
   background-color: #009aa4 !important;
 }
 @media (max-width: 768px){
-  .carousel-control-next, .carousel-control-prev{
-    width: 9%;
-  }
-  .carousel-inner {
-    height: 350px;
-    position: relative;
-  }
   .hero{
     height: 350px !important;
   }
 
-.d-block.w-100 {
-  /*height: 450px;*/
-  height: 350px;
-}
+  .carousel-control-next, .carousel-control-prev{
+    width: 9%;
+  }
+  .carousel-inner {
+    width: 82%;
+    height: 300px;
+    position: relative;
+  }
+  .d-block.w-100 {
+    /*height: 450px;*/
+    height: 300px;
+  }
 }
 
-.zoo-item .zoo-img {
-  background-size: 100% 100% !important;
+@media (max-width: 480px){
+  .carousel-inner {
+    height: 260px;
+  }
+  .d-block.w-100 {
+    height: 260px;
+  }
 }
 
 /* End Saeed changes */
